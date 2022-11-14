@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      DOST Fast Food
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,12 +9,43 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">DOST Fast Food Recipes</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div>
+    <ion-card routerLink="/recipe">
+      <img alt="burger" src="assets/img/bgr.jpg" />
+      <ion-card-header>
+        <ion-card-title>Burger</ion-card-title>
+        <ion-card-subtitle>Famous DOST Burger</ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        Out of this world patty, fresh veggies, puffy buns.
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card routerLink="/recipe2">
+      <img alt="fries" src="assets/img/fries.jpg" />
+      <ion-card-header>
+        <ion-card-title>Fries</ion-card-title>
+        <ion-card-subtitle>Famous DOST Fries</ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        Finger and Toe Licking Good.
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card routerLink="/recipe3">
+      <img alt="chicken" src="assets/img/chk.jpg" />
+      <ion-card-header>
+        <ion-card-title>Chicken</ion-card-title>
+        <ion-card-subtitle>Famous DOST Chicken</ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+        Chicken deep in blazing oil temperatures.
+      </ion-card-content>
+    </ion-card>
+
   </div>
 </ion-content>
